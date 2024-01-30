@@ -1,5 +1,48 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d1f15120-cbbc-44e4-8f66-361808e417b1)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 138.43 153.67) (size 31.75 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 31369666-22d7-4755-ad77-670809ee1c3e)
+    (property "Sheetname" "RGB" (at 138.43 152.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rgb.kicad_sch" (at 138.43 177.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "LaserPad"
+        (path "/d1f15120-cbbc-44e4-8f66-361808e417b1" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 78.74 148.59) (size 33.02 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9ff6747a-9588-4f1f-a9b4-8e080cd8421d)
+    (property "Sheetname" "Matrix" (at 78.74 147.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "matrix.kicad_sch" (at 78.74 175.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "LaserPad"
+        (path "/d1f15120-cbbc-44e4-8f66-361808e417b1" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
